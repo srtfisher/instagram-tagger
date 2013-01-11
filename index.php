@@ -19,7 +19,7 @@ $app->get('/', function() use ($app)
     {
         $i->setAccessToken($settings['access_token']);
         // Get all user likes
-        $likes = $i->getUser();
+        $likes = $i->getUserMedia();
 
         // Take a look at the API response
         echo '<pre>';

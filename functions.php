@@ -9,11 +9,21 @@ if (! defined('ABS')) exit;
 /**
  * Retrieve the last photo ID stored
  *
- * @return int 0 if never stored
+ * @return string 0 if never stored, the photo ID string if has stored
  */
 function retrieve_last_id()
 {
     return redis()->get('tagger:last-id');
+}
+
+/**
+ * Set the last photo ID stored
+ *
+ * @param string
+ */
+function set_last_id($id)
+{
+    return redis()->set('tagger:last-id', $id);
 }
 
 /**
