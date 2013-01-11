@@ -1,0 +1,14 @@
+{
+    "require": {
+        "srtfisher/Instagram-PHP-API": "dev-master",
+        "laravel/curl": "dev-master",
+        "predis/predis": "v0.8.0",
+        "slim/slim": "2.*"
+    },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/srtfisher/Instagram-PHP-API.git"
+        }
+    ]
+}

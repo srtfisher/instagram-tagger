@@ -1,0 +1,176 @@
+{
+    "hash": "a9d92e0e1e5412a57677832264b18e4a",
+    "packages": [
+        {
+            "name": "laravel/curl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mogetutu/laravel-curl",
+                "reference": "edc10e500fefd5349ddb7921b37bde51a4d9ebe6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/mogetutu/laravel-curl/archive/edc10e500fefd5349ddb7921b37bde51a4d9ebe6.zip",
+                "reference": "edc10e500fefd5349ddb7921b37bde51a4d9ebe6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.1",
+                "lib-curl": "*"
+            },
+            "time": "2012-12-07 22:49:33",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-0": {
+                    "Curl": "libraries/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Philip Sturgeon",
+                    "homepage": "http://philsturgeon.co.uk/code/codeigniter-curl"
+                },
+                {
+                    "name": "Isaak Mogetutu",
+                    "homepage": "http://twitter.com/mogetutu"
+                }
+            ],
+            "description": "Laravel Curl Helper Library inspired by Phil",
+            "homepage": "https://github.com/philsturgeon/codeigniter-curl",
+            "keywords": [
+                "php",
+                "curl",
+                "laravel"
+            ]
+        },
+        {
+            "name": "predis/predis",
+            "version": "v0.8.0",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/nrk/predis.git",
+                "reference": "v0.8.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/nrk/predis/zipball/v0.8.0",
+                "reference": "v0.8.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "suggest": {
+                "ext-phpiredis": "Allows faster serialization and deserialization of the Redis protocol",
+                "ext-curl": "Allows access to Webdis when paired with phpiredis"
+            },
+            "time": "2012-10-22 16:46:05",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Predis": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniele Alessandri",
+                    "email": "suppakilla@gmail.com",
+                    "homepage": "http://clorophilla.net"
+                }
+            ],
+            "description": "Flexible and feature-complete PHP client library for Redis",
+            "homepage": "http://github.com/nrk/predis",
+            "keywords": [
+                "nosql",
+                "redis",
+                "predis"
+            ]
+        },
+        {
+            "name": "slim/slim",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim",
+                "reference": "2.2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://github.com/codeguy/Slim/archive/2.2.0.zip",
+                "reference": "2.2.0",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2012-12-13 02:15:50",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ]
+        },
+        {
+            "name": "srtfisher/Instagram-PHP-API",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/srtfisher/Instagram-PHP-API.git",
+                "reference": "183cdb4048ec110ee45f67310d25204c60e71473"
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "time": "2013-01-11 05:06:30",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "instagram.class.php"
+                ]
+            },
+            "description": "Composer support for cosenary/Instagram-PHP-API",
+            "homepage": "http://cosenary.github.com/Instagram-PHP-API/"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "srtfisher/instagram-php-api": 20,
+        "laravel/curl": 20
+    }
+}
